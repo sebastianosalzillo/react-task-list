@@ -1,4 +1,47 @@
+*{
+    margin-top:0 ;
+    margin-left: 0;
+}
 .title {
     background-color: aqua;
+    padding: 2em;
+    padding-bottom: 1em;
     
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    
+}
+
+.task-title {
+padding-left: 0em;
+}
+
+.status {
+margin-left: 2em;
+background-color: aquamarine;
+padding: 0.5em;
+}
+
+.status-non-copleto {
+    color: white;
+    margin-left: 2em;
+    background-color: red;
+    padding: 0.5em;   
+}
+
+
+h2 {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.linea {
+    margin-top: 3em;
+}
+
+.non {
+    list-style-type: none;
 }
