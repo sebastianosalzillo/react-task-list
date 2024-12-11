@@ -54,14 +54,11 @@ function App() {
       </div>
       <hr className='linea' />
       <div>
-        <h2 className='non'>Task completate</h2>
-        <ul>{taskListCompleted()}</ul>
+        <h2 >Task completate</h2>
+        <ul className='non'>{taskListCompleted()}</ul>
       </div>
     </>
   );
 }
 
 export default App;
-
-
-
